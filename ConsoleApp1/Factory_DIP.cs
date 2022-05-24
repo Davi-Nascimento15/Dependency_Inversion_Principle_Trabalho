@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public static class  Factory
+    public static class Factory_DIP
     {
         public static Cliente GetCliente()
         {

@@ -14,15 +14,15 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            IContato cliente = Factory.GetCliente(); 
+            IContato cliente = Factory_DIP.GetCliente(); 
             cliente.Nome = "Davi"; 
             cliente.Email = "davi@gmail.com";
             cliente.Celular="(35)99881-1355";
             
-            IEmail email = Factory.GetEmail();
+            IEmail email = Factory_DIP.GetEmail();
             email.EnviarEmail(cliente, "Seu saldo é de R$ 100,00", "Seu saldo esta baixo");
 
-            IMensagemCelular sms = Factory.GetMensagemCelular();
+            IMensagemCelular sms = Factory_DIP.GetMensagemCelular();
             sms.EnviarMensagem(cliente, "Seu saldo esta baixo");
 
             Console.ReadLine();
