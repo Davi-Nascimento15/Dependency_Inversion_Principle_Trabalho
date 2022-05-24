@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="Email.cs" />
+    <Compile Include="Factory_DIP.cs" />
     <Compile Include="IContato.cs" />
     <Compile Include="IEmail.cs" />
     <Compile Include="IMensagemCelular.cs" />
