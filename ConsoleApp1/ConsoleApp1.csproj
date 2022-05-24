@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="Email.cs" />
+    <Compile Include="IContato.cs" />
+    <Compile Include="IEmail.cs" />
+    <Compile Include="IMensagemCelular.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SMS.cs" />

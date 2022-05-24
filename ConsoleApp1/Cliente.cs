@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Cliente
+    public class Cliente : IContato
     {
         public string Nome { get; set; }
         public string Email { get; set; }

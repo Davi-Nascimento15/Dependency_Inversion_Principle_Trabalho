@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class SMS
+    public class SMS : IMensagemCelular
     {
-        public void EnviarSMS(Cliente cliente, string mensagem)
+        public void EnviarMensagem(IContato cliente, string mensagem)
         {
             Console.WriteLine($"SMS enviado para {cliente.Celular}: '{mensagem}'");
         }
